@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MortgageSummary snapshot renders 1`] = `
+Array [
+  <div>
+    <ForwardRef(WithStyles)
+      container={true}
+      spacing={3}
+    >
+      <ForwardRef(WithStyles)
+        className="makeStyles-grid-5"
+        item={true}
+        xs={6}
+      >
+        <ForwardRef(WithStyles)
+          className="makeStyles-card-3"
+        >
+          <ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              className="makeStyles-title-2"
+              variant="h5"
+            >
+              Monthly
+               Payment
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              className="makeStyles-amount-4"
+              variant="h2"
+            >
+              CA$581.61
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              className="makeStyles-chartButton-9"
+              onClick={[Function]}
+            >
+              <UNDEFINED />
+              View Payment Chart
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </ForwardRef(WithStyles)>
+      <ForwardRef(WithStyles)
+        item={true}
+        xs={6}
+      >
+        <ForwardRef(WithStyles)
+          container={true}
+          spacing={3}
+        >
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={7}
+          >
+            <ForwardRef(WithStyles)
+              className="makeStyles-text-1"
+              variant="h5"
+            >
+              Mortgage Details:
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            className="makeStyles-button-8"
+            item={true}
+            xs={5}
+          >
+            <ForwardRef(WithStyles)
+              className="makeStyles-button-8"
+              onClick={[Function]}
+            >
+              <UNDEFINED />
+               Edit Details
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            <ForwardRef(WithStyles)
+              className="makeStyles-formLabel-6"
+              component="legend"
+            >
+              Mortgage Amount: 
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            100000
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            <ForwardRef(WithStyles)
+              className="makeStyles-formLabel-6"
+              component="legend"
+            >
+              Amortization Period: 
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            25 Years
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            <ForwardRef(WithStyles)
+              className="makeStyles-formLabel-6"
+              component="legend"
+            >
+              Interest Rate: 
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            5%
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            <ForwardRef(WithStyles)
+              className="makeStyles-formLabel-6"
+              component="legend"
+            >
+              Interest Term: 
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={6}
+          >
+            5 Years
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </ForwardRef(WithStyles)>
+    </ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)
+      className="makeStyles-divider-10"
+    />
+    <AmortizationTable
+      amortization={Array []}
+    />
+  </div>,
+]
+`;

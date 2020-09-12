@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MortgageForm snapshot renders 1`] = `
+<div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+    >
+      <img
+        alt="mortgageHome"
+        height="100%"
+        src="digital-mortgage.jpg"
+        width="100%"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-direction-xs-column"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <legend
+            className="MuiFormLabel-root makeStyles-formLabel-2"
+          >
+            Mortgage Amount:
+          </legend>
+          <div
+            className="MuiFormControl-root makeStyles-formControl-1"
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart"
+              onClick={[Function]}
+            >
+              <div
+                className="MuiInputAdornment-root MuiInputAdornment-positionStart"
+              >
+                <p
+                  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  $
+                </p>
+              </div>
+              <input
+                aria-invalid={false}
+                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart"
+                disabled={false}
+                id="outlined-adornment-amount"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="number"
+                value="100000"
+              />
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-3 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-4"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <legend
+            className="MuiFormLabel-root makeStyles-formLabel-2"
+          >
+            Amortization Period:
+          </legend>
+          <div
+            className="MuiFormControl-root makeStyles-formControl-1"
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              onClick={[Function]}
+            >
+              <div
+                aria-haspopup="listbox"
+                aria-labelledby="demo-simple-select-outlined-label demo-simple-select-outlined"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                id="demo-simple-select-outlined"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                25 Years
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput"
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                required={false}
+                tabIndex={-1}
+                value="25"
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-3 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-4"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            className="MuiFormControl-root makeStyles-formControl-1"
+          >
+            <legend
+              className="MuiFormLabel-root makeStyles-formLabel-2 MuiFormLabel-filled"
+            >
+              Payment Frequency:
+            </legend>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              onClick={[Function]}
+            >
+              <div
+                aria-haspopup="listbox"
+                aria-labelledby="demo-simple-select-outlined-label demo-simple-select-outlined"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                id="demo-simple-select-outlined"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Monthly
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput"
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                required={false}
+                tabIndex={-1}
+                value="Monthly"
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-3 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-4"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <legend
+            className="MuiFormLabel-root makeStyles-formLabel-2"
+          >
+            Interest Rate:
+          </legend>
+          <div
+            className="MuiFormControl-root makeStyles-formControl-1"
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                disabled={false}
+                id="outlined-adornment-percentage"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="number"
+                value="5"
+              />
+              <div
+                className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+              >
+                <p
+                  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  %
+                </p>
+              </div>
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-3 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-4"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <legend
+            className="MuiFormLabel-root makeStyles-formLabel-2"
+          >
+            Interest Term:
+          </legend>
+          <div
+            className="MuiFormControl-root makeStyles-formControl-1"
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              onClick={[Function]}
+            >
+              <div
+                aria-haspopup="listbox"
+                aria-labelledby="demo-simple-select-outlined-label demo-simple-select-outlined"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                id="demo-simple-select-outlined"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                5 Years
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput"
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                required={false}
+                tabIndex={-1}
+                value="5"
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-3 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-4"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Calculate
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
